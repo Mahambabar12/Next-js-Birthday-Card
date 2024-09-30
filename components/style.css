@@ -1,0 +1,95 @@
+/* *{
+    background: #f06464;
+} */
+/* mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-pink */
+.border{
+    margin: 0 auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(228, 37, 69);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    
+}
+
+.border:hover{
+    box-shadow: 0 0 30px 5px rgba(228, 104, 104, 0.5);
+}
+/* text-4xl font-bold text-black */
+.birthday{
+    font-size: 35px;
+    font-weight: bold;
+    color:  black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    animation: slide 2s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+/* text-2xl font-semibold text-gray-600 */
+.Name{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(236, 71, 99);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* text-lg text-green-500 bold */
+.Dob{
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(236, 71, 99);
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    animation: slide 2s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    
+}
+/* text-lg font-semibold text-black mb-2 */
+.light {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* text-lg font-semibold text-black mb-2 */
+.pop{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* bg-black text-white hover:bg-gray-800 transition-all duration-300 */
+.btn{
+    background-color: rgb(236, 71, 99);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+   transform: scale(1.1);
+   transition: 2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
